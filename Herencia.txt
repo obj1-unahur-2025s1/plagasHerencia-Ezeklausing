@@ -1,0 +1,21 @@
+herencia entre clases. 
+partimos de algo general y vamos especializando para abajo. 
+
+class Vehiculo {
+
+  var peso
+  var cantidadPuertas
+  var property color = "blanco"
+  method velocidad() =  (cantidadPuertas * peso) / 100
+}
+
+class Auto inherits Vehiculo {
+  var motor = "motorViejo"
+  method cambiarMoor(unMotor) {
+    motor = unMotor
+  }
+
+}
+
+herencia simple
+metodo lookout - ve si el metodo esta en la clase y sino, y es inherit a algo, va a ese algo a ver si el metodo exite. 
